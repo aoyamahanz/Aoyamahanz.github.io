@@ -410,3 +410,26 @@ footer .footer-cols {
         grid-gap: 2rem;
         text-align: center;
     }
+}
+
+@media(max-width:425px) {
+    .showcase-content h1 {
+        font-size: 3rem;
+    }
+
+    .showcase-content p {
+        font-size: 0.7rem;
+    }
+
+    .text-xl {
+        font-size: 0.8rem;
+    }
+
+    .text-lg {
+        font-size: 0.7rem;
+    }
+
+    .btn-xl {
+        font-size: 0.7rem;
+    }
+}
