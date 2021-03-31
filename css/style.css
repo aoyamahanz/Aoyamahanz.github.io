@@ -426,7 +426,7 @@ footer .footer-cols {
     }
 
     .text-xl {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
 
     .text-lg {
@@ -434,11 +434,7 @@ footer .footer-cols {
     }
 
     .btn-xl {
-        font-size: 0.7rem;
-    }
-
-    .table {
-        float: left;
+        font-size: 0.8rem;
     }
 
     .table thead th {
@@ -452,9 +448,51 @@ footer .footer-cols {
     }
 
     .container {
-        max-width: 90%;
+        max-width: 100%;
         margin: auto;
         overflow: hidden;
         padding: 0 2rem;
+    }
+
+    @media(max-width:320px) {
+        .showcase-content h1 {
+            font-size: 2rem;
+        }
+    
+        .showcase-content p {
+            font-size: 0.5rem;
+        }
+    
+        .text-xl {
+            font-size: 0.8rem;
+        }
+    
+        .text-lg {
+            font-size: 0.6rem;
+        }
+    
+        .btn-xl {
+            font-size: 0.5rem;
+        }
+
+        .table thead th {
+            font-size: 10px;
+            padding: 0.6rem;
+        }
+    
+        .table tbody tr td {
+            font-size: 8px;
+            padding: 0.2rem 0.6rem;
+        }
+    }
+
+    @media(max-width:375px){
+        .btn-xl {
+            font-size: 10px;
+        }
+
+        .btn-lg {
+            font-size: 10px;
+        }
     }
 }
