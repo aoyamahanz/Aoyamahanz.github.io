@@ -414,7 +414,7 @@ footer .footer-cols {
 
 @media(max-width:425px) {
     .showcase::after {
-        box-shadow: inset 40px 40px 250px #000000, inset -40px -40px 250px #000000;
+        box-shadow: inset 10px 10px 150px #000000, inset -10px -10px 150px #000000;
     }
 
     .showcase-content h1 {
