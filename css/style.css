@@ -494,5 +494,26 @@ footer .footer-cols {
         .btn-lg {
             font-size: 10px;
         }
+
+        .btn-rounded {
+            font-size: 0.7rem;
+        }
+
+        .showcase-top a {
+            right: -15px;
+        }
+
+        .showcase-top img {
+            width: 120px;
+            top: 8px;
+        }
+
+        .footer {
+            font-size: 0.6rem;
+        }
+
+        .showcase-content h1 {
+            font-size: 2.5rem;
+        }
     }
 }
